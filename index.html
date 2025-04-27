@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <div id="form">
         <h3>Enter First Name</h3>
-        <input type="text" alt="First name">
+        <input id="firstName" type="text" alt="First name">
         <h3>Enter last Name</h3>
-        <input type="text" alt="Last name">
-        <button type="button">Submit</button>
+        <input id="lastName" type="text" alt="Last name">
+        <button type="button" onclick="validationForm()" >Submit</button>
+        <button type="button" onclick="viewDetails()">View details</button>
     </div>
+    <script type="module" src="index.js"></script>
 </body>
 </html>
